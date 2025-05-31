@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6abc3b69a3bcb45b7a54a6a3ab5a63b2
+guid: 19d12b3651c597d45a18d8ec93475063
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +105,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground _ Obstacle_0
+      name: AnimationSheet_Character_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac208312ff3414044bbeb70ca328a0a1
+      internalID: 562958451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ef5d3284add244f87e2866b40a5e66
+      internalID: 478149699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ae4105a64d3ea4fb15864b4455eaf0
+      internalID: 1444982348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d6a33eef954874aaa160ae8f73cb46
+      internalID: -1504730154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_4
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1660aeaad08c3b0498fd77ec623ae1bb
-      internalID: 1744324339
+      spriteID: 96d2b2c839112e44db7028e4f172cfad
+      internalID: -1724665080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_1
+      name: AnimationSheet_Character_5
       rect:
         serializedVersion: 2
         x: 32
@@ -140,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3962132cfbbcd449b04ac08a195fb36
-      internalID: -635651608
+      spriteID: 498bc0de1a0183542b54198296561605
+      internalID: -1915943074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_2
+      name: AnimationSheet_Character_6
       rect:
         serializedVersion: 2
         x: 64
@@ -161,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86013c8a564d0af419f953ce585825b2
-      internalID: -865933059
+      spriteID: 81e07fd34672f6d4889ed01ad08e982b
+      internalID: -1250351399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_3
+      name: AnimationSheet_Character_7
       rect:
         serializedVersion: 2
         x: 96
@@ -182,35 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8440d1beac7b71438a986de5214fc5c
-      internalID: -2044141785
+      spriteID: b5b3cbf9226eed34d887cacef2e7eaf3
+      internalID: 1329170731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f63dceaae74f444d91f74148632438b
-      internalID: 1474775900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground _ Obstacle_5
+      name: AnimationSheet_Character_8
       rect:
         serializedVersion: 2
         x: 0
@@ -224,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8b15ab592da0484d85ccd37670f7fb7
-      internalID: 735487839
+      spriteID: ccfa9712c0e2f114c95209686e0677e2
+      internalID: 2036164090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_6
+      name: AnimationSheet_Character_9
       rect:
         serializedVersion: 2
         x: 32
@@ -245,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e727a1ec1a06be4b9d77efb0485ecbc
-      internalID: -1283432160
+      spriteID: e2c79079bd901064382c1316a3459227
+      internalID: -447905000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_7
+      name: AnimationSheet_Character_10
       rect:
         serializedVersion: 2
         x: 64
@@ -266,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f4f6094aadd6db478f84ea6c075b33f
-      internalID: -840042632
+      spriteID: a12ecfc0f563bf14cafbb6cbf917f26b
+      internalID: -2093139746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_8
+      name: AnimationSheet_Character_11
       rect:
         serializedVersion: 2
         x: 96
@@ -287,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 482c24d089b2ef540806d7aa63ffb42d
-      internalID: 750662586
+      spriteID: 2fad049c7c5c3824dae1ed54a179a393
+      internalID: -58320594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_9
+      name: AnimationSheet_Character_12
       rect:
         serializedVersion: 2
         x: 128
@@ -308,14 +371,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b342fcb937b5ec547b8cca8827a7c92f
-      internalID: 1867780829
+      spriteID: c440a1780bd094f4fbf6d5ad90f33202
+      internalID: 1930923374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_10
+      name: AnimationSheet_Character_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4f9a55f55e6234599120e21db47b8b
+      internalID: 1681496627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9955a93015d83cd4ba793b8b152e44f5
+      internalID: 829775410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be53c9894ab93746b01a7ff3d59a244
+      internalID: 1181694009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_16
       rect:
         serializedVersion: 2
         x: 0
@@ -329,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a1c3064e0e09c47a44611113ecd9c7
-      internalID: 1157677281
+      spriteID: 3cfb54031d1d7804d8be57ad4e178d31
+      internalID: -1670614157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_11
+      name: AnimationSheet_Character_17
       rect:
         serializedVersion: 2
         x: 32
@@ -350,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f1c55659112d3642bb30d89d54a4795
-      internalID: -420430737
+      spriteID: 5d248712b7b2c024a894bd58b3d7af19
+      internalID: 1601441971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_12
+      name: AnimationSheet_Character_18
       rect:
         serializedVersion: 2
         x: 64
@@ -371,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c596b147afd033244a75d4695326366c
-      internalID: -2072298105
+      spriteID: ad1ecb0683711c44da0ad6aa42db6755
+      internalID: -1701015577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_13
+      name: AnimationSheet_Character_19
       rect:
         serializedVersion: 2
         x: 96
@@ -392,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 278c4f3e48d1251498aa54087e41e290
-      internalID: -1195151596
+      spriteID: 706bf2dd206f610449b51f69cf48148e
+      internalID: -712579167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_14
+      name: AnimationSheet_Character_20
       rect:
         serializedVersion: 2
         x: 128
@@ -413,14 +539,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 666b3990065fb9245b55793db1c9ec27
-      internalID: -250133508
+      spriteID: 5b26b5aa0b1216246ac6dfbe93142508
+      internalID: -904173674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_15
+      name: AnimationSheet_Character_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e61447a994eee44be3469a14d601ed
+      internalID: -1864295815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_22
       rect:
         serializedVersion: 2
         x: 0
@@ -434,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfbbd071d3eba2a4880351c9efcd2881
-      internalID: -164119278
+      spriteID: 7440f7fc270edb145a07e4df1952c886
+      internalID: 1087499297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_16
+      name: AnimationSheet_Character_23
       rect:
         serializedVersion: 2
         x: 32
@@ -455,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 511f4015fa8d2ff45a7cf2938e37f7a6
-      internalID: -458093873
+      spriteID: 06a989320bccc2344b049f34ab155948
+      internalID: -21129746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_17
+      name: AnimationSheet_Character_24
       rect:
         serializedVersion: 2
         x: 64
@@ -476,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46ae35867e7a9724f9a9da465db0547c
-      internalID: -2069285763
+      spriteID: f0651f891474c754b82b95206b02ae3c
+      internalID: 1768862571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_18
+      name: AnimationSheet_Character_25
       rect:
         serializedVersion: 2
         x: 96
@@ -497,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d161533fe00a4cc4b9b614a01207f827
-      internalID: 1801523569
+      spriteID: 26d15823ca764304bab79602a6bdd3b3
+      internalID: -407359077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_19
+      name: AnimationSheet_Character_26
       rect:
         serializedVersion: 2
         x: 128
@@ -518,14 +665,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51bc7deafe4b5044fb9b95cd208f1880
-      internalID: -1502374009
+      spriteID: 9b8d986ad9df32943b740171f682f601
+      internalID: -1797933248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_20
+      name: AnimationSheet_Character_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541680912fabfb34c87b7b5fbb815982
+      internalID: 534386340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3017d39ae6a33cc4691bc22a6e348fe2
+      internalID: -1399844191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2447a16a1e63446b3815265b172e56
+      internalID: -1151809838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_30
       rect:
         serializedVersion: 2
         x: 0
@@ -539,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c53e2aec6e4d584a9411e27089b5bb6
-      internalID: 326363798
+      spriteID: ab3e78e9dded67b46aa276cdbd2ede74
+      internalID: -1014737574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_21
+      name: AnimationSheet_Character_31
       rect:
         serializedVersion: 2
         x: 32
@@ -560,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aabf9b6a8a21a264390c80bd7b5de60b
-      internalID: 2089927914
+      spriteID: 656203d5553d6824bb06f8f9907d1c7e
+      internalID: -222993619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_22
+      name: AnimationSheet_Character_32
       rect:
         serializedVersion: 2
         x: 64
@@ -581,14 +791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f27b3df8f41d0ac47aa271156001ef4d
-      internalID: -968323111
+      spriteID: 7096b35caf0bc1f4eb9bdab74ba6ca08
+      internalID: -208147389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_23
+      name: AnimationSheet_Character_33
       rect:
         serializedVersion: 2
         x: 96
@@ -602,35 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eda7cfee9aac1d478596669a61f6fa8
-      internalID: -1644171442
+      spriteID: 526c99174bf7b3c438655175971dae70
+      internalID: 574486739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_24
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39974c4173ca9a842b948bd99a472fd0
-      internalID: 48930915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground _ Obstacle_25
+      name: AnimationSheet_Character_34
       rect:
         serializedVersion: 2
         x: 0
@@ -644,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f1f63201a0c8164ba363eb8aacb8a62
-      internalID: -910591394
+      spriteID: 0c611d285a25c684e8eee5a273e39e42
+      internalID: 154964436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_26
+      name: AnimationSheet_Character_35
       rect:
         serializedVersion: 2
         x: 32
@@ -665,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4575f429a03ba124596b72ccde683999
-      internalID: 96700266
+      spriteID: 20646f24e1f0d3b419ccb778d17a5cc8
+      internalID: -926148356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_27
+      name: AnimationSheet_Character_36
       rect:
         serializedVersion: 2
         x: 64
@@ -686,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e47f2fc1d99a884fb560f251c625733
-      internalID: -725487983
+      spriteID: 1344f910373a32446bf05e268f4f4150
+      internalID: -1009511048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_28
+      name: AnimationSheet_Character_37
       rect:
         serializedVersion: 2
         x: 96
@@ -707,14 +896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aca09a8e415696489d5dca2d44da987
-      internalID: -1574860860
+      spriteID: 243182a878b1df9418e283978469858c
+      internalID: -483422576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_29
+      name: AnimationSheet_Character_38
       rect:
         serializedVersion: 2
         x: 128
@@ -728,14 +917,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f8edad273c8ab746b5d9a73959cde0e
-      internalID: -408183686
+      spriteID: dfb8cf9931acc724c9265087fbc077b8
+      internalID: 1216465529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_30
+      name: AnimationSheet_Character_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6649c814d5f3b894d9a52cf7102aa47e
+      internalID: 1075598403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764541b7381213a49805e28085f2707c
+      internalID: 326398661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167cd6c03e44c274ba7994a95a9e3c0d
+      internalID: 1366027484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_42
       rect:
         serializedVersion: 2
         x: 0
@@ -749,14 +1001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a84d472b15cc63448766f0ff175e81f
-      internalID: -1540836713
+      spriteID: ed77bde7648e2b74aafc1b3949329467
+      internalID: 30270518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_31
+      name: AnimationSheet_Character_43
       rect:
         serializedVersion: 2
         x: 32
@@ -770,14 +1022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0eac6caf44e0d54aa1f0279af6d077a
-      internalID: 1503287097
+      spriteID: fc179687e1b99c748bc6355ed32f92d1
+      internalID: 143025136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_32
+      name: AnimationSheet_Character_44
       rect:
         serializedVersion: 2
         x: 64
@@ -791,14 +1043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55027ed0dd1e8c94bb365ee7635289f9
-      internalID: 977132109
+      spriteID: f29bbe477f9ab5e4abba0fc8b41829a8
+      internalID: -1864974355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_33
+      name: AnimationSheet_Character_45
       rect:
         serializedVersion: 2
         x: 96
@@ -812,14 +1064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d86fd94b5eb7544f8ea2d04558d2512
-      internalID: 260877862
+      spriteID: 8abe0688bd2f4bb47a2da0fb5ea9a5ce
+      internalID: -292228811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground _ Obstacle_34
+      name: AnimationSheet_Character_46
       rect:
         serializedVersion: 2
         x: 128
@@ -833,8 +1085,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab0189a8e8e23b43a175d02622adf21
-      internalID: -450638052
+      spriteID: f7e0c139d05b80147bf98d3323e36141
+      internalID: -283129169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e8839574f61084585b407b19018248
+      internalID: -1001895845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8efe277bfeb244dad7579112fce307
+      internalID: -134760205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimationSheet_Character_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd201a16976fa9438da6f00418750c0
+      internalID: -261968300
       vertices: []
       indices: 
       edges: []
@@ -850,41 +1165,56 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ground _ Obstacle_0: 1744324339
-      Ground _ Obstacle_1: -635651608
-      Ground _ Obstacle_10: 1157677281
-      Ground _ Obstacle_11: -420430737
-      Ground _ Obstacle_12: -2072298105
-      Ground _ Obstacle_13: -1195151596
-      Ground _ Obstacle_14: -250133508
-      Ground _ Obstacle_15: -164119278
-      Ground _ Obstacle_16: -458093873
-      Ground _ Obstacle_17: -2069285763
-      Ground _ Obstacle_18: 1801523569
-      Ground _ Obstacle_19: -1502374009
-      Ground _ Obstacle_2: -865933059
-      Ground _ Obstacle_20: 326363798
-      Ground _ Obstacle_21: 2089927914
-      Ground _ Obstacle_22: -968323111
-      Ground _ Obstacle_23: -1644171442
-      Ground _ Obstacle_24: 48930915
-      Ground _ Obstacle_25: -910591394
-      Ground _ Obstacle_26: 96700266
-      Ground _ Obstacle_27: -725487983
-      Ground _ Obstacle_28: -1574860860
-      Ground _ Obstacle_29: -408183686
-      Ground _ Obstacle_3: -2044141785
-      Ground _ Obstacle_30: -1540836713
-      Ground _ Obstacle_31: 1503287097
-      Ground _ Obstacle_32: 977132109
-      Ground _ Obstacle_33: 260877862
-      Ground _ Obstacle_34: -450638052
-      Ground _ Obstacle_4: 1474775900
-      Ground _ Obstacle_5: 735487839
-      Ground _ Obstacle_6: -1283432160
-      Ground _ Obstacle_7: -840042632
-      Ground _ Obstacle_8: 750662586
-      Ground _ Obstacle_9: 1867780829
+      AnimationSheet_Character_0: 562958451
+      AnimationSheet_Character_1: 478149699
+      AnimationSheet_Character_10: -2093139746
+      AnimationSheet_Character_11: -58320594
+      AnimationSheet_Character_12: 1930923374
+      AnimationSheet_Character_13: 1681496627
+      AnimationSheet_Character_14: 829775410
+      AnimationSheet_Character_15: 1181694009
+      AnimationSheet_Character_16: -1670614157
+      AnimationSheet_Character_17: 1601441971
+      AnimationSheet_Character_18: -1701015577
+      AnimationSheet_Character_19: -712579167
+      AnimationSheet_Character_2: 1444982348
+      AnimationSheet_Character_20: -904173674
+      AnimationSheet_Character_21: -1864295815
+      AnimationSheet_Character_22: 1087499297
+      AnimationSheet_Character_23: -21129746
+      AnimationSheet_Character_24: 1768862571
+      AnimationSheet_Character_25: -407359077
+      AnimationSheet_Character_26: -1797933248
+      AnimationSheet_Character_27: 534386340
+      AnimationSheet_Character_28: -1399844191
+      AnimationSheet_Character_29: -1151809838
+      AnimationSheet_Character_3: -1504730154
+      AnimationSheet_Character_30: -1014737574
+      AnimationSheet_Character_31: -222993619
+      AnimationSheet_Character_32: -208147389
+      AnimationSheet_Character_33: 574486739
+      AnimationSheet_Character_34: 154964436
+      AnimationSheet_Character_35: -926148356
+      AnimationSheet_Character_36: -1009511048
+      AnimationSheet_Character_37: -483422576
+      AnimationSheet_Character_38: 1216465529
+      AnimationSheet_Character_39: 1075598403
+      AnimationSheet_Character_4: -1724665080
+      AnimationSheet_Character_40: 326398661
+      AnimationSheet_Character_41: 1366027484
+      AnimationSheet_Character_42: 30270518
+      AnimationSheet_Character_43: 143025136
+      AnimationSheet_Character_44: -1864974355
+      AnimationSheet_Character_45: -292228811
+      AnimationSheet_Character_46: -283129169
+      AnimationSheet_Character_47: -1001895845
+      AnimationSheet_Character_48: -134760205
+      AnimationSheet_Character_49: -261968300
+      AnimationSheet_Character_5: -1915943074
+      AnimationSheet_Character_6: -1250351399
+      AnimationSheet_Character_7: 1329170731
+      AnimationSheet_Character_8: 2036164090
+      AnimationSheet_Character_9: -447905000
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
