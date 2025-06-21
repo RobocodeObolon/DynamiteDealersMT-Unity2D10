@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    private int totalCoins;
     private Rigidbody2D rb;
 
     private void Start()
