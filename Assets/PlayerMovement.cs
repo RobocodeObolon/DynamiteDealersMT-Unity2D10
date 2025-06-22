@@ -5,12 +5,22 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private int totalCoins;
+    public int totalCoins;
     private Rigidbody2D rb;
+    public GameObject scene;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        scene = GameObject.Find("WinScene");
+        scene.SetActive(false);
+    }
+
+    private void Update(){
+        if(totalCoins == 4)
+        {
+            scene.SetActive(true);
+        }
     }
 
     private void FixedUpdate()

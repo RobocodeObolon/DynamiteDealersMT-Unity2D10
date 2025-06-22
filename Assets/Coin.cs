@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    private void Start;
     private int totalCoins;
     void OnTriggerEnter2D(Collider2D c2d)
     {
-        if (c2d.gameObject.CompareTag("Player"))
+        if (c2d.CompareTag("Player"))
         {
-            gameObject.Find("Player").GetComponent<PlayerMovement>().totalCoins++;
+            GameObject.Find("Player").GetComponent<PlayerMovement>().totalCoins++;
             Destroy(gameObject);
         }
-        if(totalCoins == 4)
-        {
-            
-        }
+        
     }
 }

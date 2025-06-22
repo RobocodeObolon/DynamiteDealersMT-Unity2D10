@@ -136,11 +136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.42
+      value: -8.32
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.34
+      value: -1.37
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -565,11 +565,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.32
+      value: 14.4
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.26
+      value: -9.21
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1118,6 +1118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  totalCoins: 0
+  scene: {fileID: 0}
 --- !u!212 &1373594138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1415,11 +1417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.11
+      value: -7.12
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.28
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1472,7 +1474,7 @@ GameObject:
   - component: {fileID: 1823055830}
   - component: {fileID: 1823055829}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: WinScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,11 +3546,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.02
+      value: 3.99
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.26
+      value: -9.18
       objectReference: {fileID: 0}
     - target: {fileID: 354713629256095665, guid: bf6f76a4f377e70418cabba447488a6c, type: 3}
       propertyPath: m_LocalPosition.z
